@@ -403,3 +403,36 @@ a {
     border: 1px solid rgb(8, 206, 255);
     transition: 0.3s;
 }
+
+/* trused section */
+
+.trus__container{
+    border-radius: 25px;
+    background: linear-gradient(-45deg, rgba(40, 48, 54, 0.6) 80%,  rgba(84, 141, 97, 0.6) 100%);
+}
+
+.trus__title {
+text-align: center;
+  padding: 55px 0;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.trus__iamges{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 107px;
+    padding-bottom: 55px;
+}
+
+.trust__svg:hover path{
+    fill:  #ffee00;
+}
+
+.trust__svg:active path{
+    fill:  #000000;
+}
