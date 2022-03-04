@@ -23,12 +23,12 @@
                         <option value="saab">Designer</option>
                         <option value="mercedes">Developer</option>
                     </select>
-                    <a href="" class="nav__link">My Collections</a>
-                    <a href="" class="nav__link">Blog</a>
+                    <a href="#collection" class="nav__link">My Collections</a>
+                    <a href="#blog" class="nav__link" >Blog</a>
                 </div>
                 <div class="nav__login">
-                    <a href="" class="login__link ">Login</a>
-                    <a href="" class="sign__link btn">Sign Up</a>
+                    <a href="#login" class="login__link">Login</a>
+                    <a href="#" class="sign__link btn">Sign Up</a>
                 </div>
             </div>
         </nav>
@@ -68,7 +68,7 @@
 
         <!-- Popular -->
 
-        <section class="popular">
+        <section class="popular" id="collection">
             <div class="container popular__container">
                 <h2 class="popular__heading">
                     Most Popular Tools
@@ -384,7 +384,7 @@
 
         <!-- Newcomer -->
 
-        <section class="newcomer">
+        <section class="newcomer" id="blog">
             <div class="container newcomer__container">
                 <div class="newcomer__inner">
                     <h2 class="newcomer__inner__title">Newcomer Tools</h2>
@@ -644,6 +644,41 @@
             </div>
         </section>
     </main>
+
+    <!-- Footer -->
+
+    <footer class="footer" id="login">
+        <div class="container footer__container">
+            <ul class="footer__list">
+                <li class="footer__list__item">
+                    <a href="#" class="footer__logo__link">
+                    <img class="footer__logo__img" src="./images/logo-img.svg" alt="logo iamge" >
+                    </a>
+                    <h4 class="footer__title">Copyright 2021. Antools</h4>
+                    <p class="footer__info">Antool is a web collection of information on paid or free Design and Development tools</p>
+                </li>
+
+                <li class="footer__list__item">
+                    <h4 class="footer__heading">Contact Us</h4>
+                    <a href="tel:+621987463" class="footer__link">+621987463 </a>
+                    <a href="#" class="footer__link"> M Building, No.10 A</a>
+                    <a href="#" class="footer__link">antools@awesome.com </a>
+                </li>
+
+                <li class="footer__list__item">
+                    <h4 class="footer__heading">Categories</h4>
+                    <a href="#" class="footer__link">Design </a>
+                    <a href="#" class="footer__link"> Development</a>
+                </li>
+                <li class="footer__list__item">
+                    <h4 class="footer__heading">Company Info</h4>
+                    <a href="#" class="footer__link"> About Us</a>
+                    <a href="#" class="footer__link"> Our Partners</a>
+                    <a href="#" class="footer__link"> Blog</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>

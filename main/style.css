@@ -61,6 +61,10 @@
        url('../fonts/lora-v23-latin-500.ttf') format('truetype');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', 'Arial', sans-serif;
     font-weight: 500;
@@ -658,7 +662,7 @@ text-align: center;
 
 .join__btn {
     position: absolute;
-    left: 462px;
+    left: 449px;
     top: 6px;
     padding: 12px 35px;
     background-color: #FF6E30;
@@ -669,4 +673,57 @@ text-align: center;
     line-height: 24px;
     border-radius: 8px;
     color: #FFFFFF;
+}
+
+/* Footer */
+
+.footer__container {
+    margin-top: 70px;
+    margin-bottom: 98px;
+}
+
+.footer__list {
+    display: flex;
+    gap: 115px;
+}
+
+.footer__list__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__link {
+    margin-top: 10px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.footer__title {
+    margin-top: 25px;
+    margin-bottom: 21px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.footer__info {
+    width: 260px;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.footer__heading {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
 }
